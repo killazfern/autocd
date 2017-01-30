@@ -1,0 +1,5 @@
+function autocd() {
+        args=("$@")
+        cd $(python /home/mfernandes/bin/autocd_py/main.py ${args[0]})       
+}
+
